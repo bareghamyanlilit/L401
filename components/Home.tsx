@@ -33,11 +33,11 @@ export function Home() {
       className={`${openEnvelope ? "" : "relative h-dvh"} FontArTarumianBarakU tracking-[20%] text-center overflow-hidden text-vrayi `}
     >
       <div
-        className={` bg-guyn ${openEnvelope ? "animate-bounceYB" : ""} z-51 w-[160vw] h-[160vw] rounded-4xl absolute left-1/2 top-[0%]  -translate-x-1/2 -translate-y-1/2 rotate-45  shadow-2xl `}
+        className={` bg-guyn ${openEnvelope ? "animate-bounceYB" : ""} z-51 w-[170vw] h-[170vw] rounded-4xl absolute left-1/2 -top-[10%]  -translate-x-1/2 -translate-y-1/2 rotate-45  shadow-2xl `}
 
       ></div>
       <div
-        className={` bg-guyn ${openEnvelope ? "animate-bounceYT" : ""}  z-50 w-[160vw] h-[160vw] rounded-4xl absolute left-1/2 -bottom-[60%] -translate-x-1/2 -translate-y-1/2 rotate-45  `}
+        className={` bg-guyn ${openEnvelope ? "animate-bounceYT" : ""}  z-50 w-[170vw] h-[170vw] rounded-4xl absolute left-1/2 -bottom-[60%] -translate-x-1/2 -translate-y-1/2 rotate-45  `}
       ></div>
       <img
         src="/forenvelope.png"
