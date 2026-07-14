@@ -64,7 +64,7 @@ export function Home() {
         <MusicPlayer isPlaying={isPlaying} />
       </div>
 
-      <div className="  bg-cover bg-center bg-fixed m-auto max-w-md w-full h-max" style={{ backgroundImage: `url("/bg.png")` }}>
+      <div className="  bg-cover bg-center m-auto max-w-md w-full h-max" style={{ backgroundImage: `url("/bg.png")` }}>
         <div className=" rounded-b-[220px] px-10 py-50 grid gap-8 w-full h-dvh">
           <motion.h2 {...anim} className="FontArmHmk text-2xl font-bold">
             {txt1Title}
